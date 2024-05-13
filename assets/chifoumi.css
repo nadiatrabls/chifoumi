@@ -1,0 +1,18 @@
+main {
+    font-family: "Comic Sans MS";
+    text-align: center;
+    display: flex; /*influence les element enfant de mail*/
+    height: 100%;
+}
+
+main > div {
+    flex: 1; /*quel importance prendra chaque element de flex*/
+}
+
+.images > img {
+    height: 100px;/* pour les images il faut redimensionner soit le height ou le width pour pas changer les propriétés de img*/
+
+}
+main > div:not(:nth-child(2)){
+    background-color: lightgray;
+}
