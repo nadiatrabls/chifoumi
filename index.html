@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHI-FOU-MI</title>
+    <link rel="stylesheet" href="assets/chifoumi.css">
+    <script src="assets/chifoumi.js"></script>
+
+</head>
+<body>
+    <main>
+        <div>
+            <h3>JOUEUR</h3>
+            <p id="scoreJoueur"></p>
+            <div class="image">
+                <img src="images/1.jpg" alt="PIERRE" class="signe" id="signeJoueur1" onclick="chifoumi(1)">
+                <img src="images/2.jpg" alt="FEUILLE" class="signe" id="signeJoueur2" onclick="chifoumi(2)">
+                <img src="images/3.jpg" alt="CISEAUX" class="signe" id="signeJoueur3" onclick="chifoumi(3)">
+            </div>
+        </div>
+        <div>
+            <H3>Résultat</H3>
+            <p id="message"></p>
+            <img src="images/choix.jpg" id="choixJoueur">
+            <img src="images/choix.jpg" id="choixOrdi">
+        </div>
+        <div>
+            <h3>ORDI</h3>
+            <p id="scoreOrdi"></p>
+            <div>
+                <input type="checkbox" name="" id="triche">
+                <label for="triche">Activer le mode triche</label>
+                <!-- le for c'est pour lié le label à sont input à travers sont id-->
+            </div>
+            <div class="image">
+                <img src="images/1.jpg" class="signe" id="signeOrdi1">
+                <img src="images/2.jpg" class="signe" id="signeOrdi2">
+                <img src="images/3.jpg" class="signe" id="signeOrdi3">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
