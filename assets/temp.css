@@ -1,3 +1,18 @@
 h1{
     border: 1px solid;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding-block: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 20px;
+    margin-top: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
 }
