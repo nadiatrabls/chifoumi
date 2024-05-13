@@ -16,3 +16,7 @@ main > div {
 main > div:not(:nth-child(2)){
     background-color: lightgray;
 }
+h1{
+    text-align: center;
+    color: orange;
+}
